@@ -16,8 +16,8 @@ Leader key means: press `CTRL+a`, then the next key.
 
 | Keys             | Scope  | Action                          | Notes                                 |
 | ---------------- | ------ | ------------------------------- | ------------------------------------- | ------------------------------------ |
-| `CMD+SHIFT+C`    | Global | Copy selected text to clipboard | System clipboard copy                 |
-| `CMD+SHIFT+V`    | Global | Paste from clipboard            | System clipboard paste                |
+| `CMD+C`          | Global | Copy selected text to clipboard | System clipboard copy                 |
+| `CMD+V`          | Global | Paste from clipboard            | System clipboard paste                |
 | `CMD+LeftArrow`  | Global | Move to start of the line       | Sends Ctrl-A                          |
 | `CMD+RightArrow` | Global | Move to the end of the line     | Sends Ctrl-E                          |
 | `LEADER+SHIFT+   | `      | Panes                           | Split current pane horizontally       | New pane opens to the right, cwd=`~` |
@@ -44,6 +44,7 @@ Leader key means: press `CTRL+a`, then the next key.
 | `LEADER+8`       | Tabs   | Switch to tab 8                 | Direct tab activation                 |
 | `LEADER+9`       | Tabs   | Switch to tab 9                 | Direct tab activation                 |
 | `LEADER+SHIFT+R` | Tabs   | Rename current tab              | Prompts for a new tab title           |
+| `CMD+Q`          | Global | Quit WezTerm                    | Kills all tabs, no confirmation       |
 
 ## Mouse Reference
 
