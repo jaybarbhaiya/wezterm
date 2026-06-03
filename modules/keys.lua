@@ -175,6 +175,13 @@ return {
         }),
     },
 
+    -- Search for word under cursor / open search bar
+    {
+        key = "f",
+        mods = "CMD",
+        action = act.Search({ CaseSensitiveString = "" }),
+    },
+
     -- Terminate wezterm, kill all tabs
     {
         key = "q",
