@@ -7,6 +7,13 @@ return {
     action = wezterm.action.SelectTextAtMouseCursor 'SemanticZone',
     mods = 'NONE',
   },
+  -- Open http/https links in the default browser when left-clicking a link.
+  -- Use the Up event so users can still select by dragging with the mouse.
+  {
+    event = { Up = { streak = 1, button = 'Left' } },
+    mods = 'NONE',
+    action = wezterm.action.OpenLinkAtMouseCursor,
+  },
   {
     event = { Down = { streak = 1, button = 'Right' } },
     mods = 'NONE',

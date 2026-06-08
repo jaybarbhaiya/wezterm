@@ -20,6 +20,7 @@ Leader key means: press `CTRL+a`, then the next key.
 | `CMD+V`              | Global | Paste from clipboard            | System clipboard paste                |
 | `CMD+LeftArrow`      | Global | Move to start of the line       | Sends Ctrl-A                          |
 | `CMD+RightArrow`     | Global | Move to the end of the line     | Sends Ctrl-E                          |
+| `CMD+N`              | Global | Open a new window               | Opens a new WezTerm window            |
 | `LEADER+SHIFT+|`     | Panes  | Split current pane horizontally | New pane opens to the right, cwd=`~` |
 | `LEADER+SHIFT+_`     | Panes  | Split current pane vertically   | New pane opens downward, cwd=`~`      |
 | `LEADER+h`           | Panes  | Focus left pane                 | Pane navigation                       |

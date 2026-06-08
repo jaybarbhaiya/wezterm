@@ -26,6 +26,12 @@ return {
         mods = "CMD",
         action = act.PasteFrom("Clipboard"),
     },
+    -- macOS: Cmd+N -> open a new window
+    {
+        key = "n",
+        mods = "CMD",
+        action = wezterm.action.SpawnWindow,
+    },
     -- macOS: Cmd+Left/Right -> move to start/end of line (send Ctrl-A / Ctrl-E)
     {
         key = "LeftArrow",
