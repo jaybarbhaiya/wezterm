@@ -48,12 +48,12 @@ return {
     {
         key = "|",
         mods = "LEADER|SHIFT",
-        action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain", cwd = "~" }),
+        action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
     },
     {
         key = "_",
         mods = "LEADER|SHIFT",
-        action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain", cwd = "~" }),
+        action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
     },
     {
         key = "h",
