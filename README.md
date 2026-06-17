@@ -45,6 +45,9 @@ Leader key means: press `CTRL+a`, then the next key.
 | `LEADER+8`           | Tabs   | Switch to tab 8                 | Direct tab activation                 |
 | `LEADER+9`           | Tabs   | Switch to tab 9                 | Direct tab activation                 |
 | `LEADER+SHIFT+R`     | Tabs   | Rename current tab              | Prompts for a new tab title           |
+| `LEADER+=`           | Global | Zoom in                         | Increases font size                   |
+| `LEADER+-`           | Global | Zoom out                        | Decreases font size                   |
+| `LEADER+0`           | Global | Reset zoom                      | Resets font size to default           |
 | `CMD+F`              | Global | Open search bar / search        | Opens the search input (Search)       |
 | `CMD+Q`              | Global | Quit WezTerm                    | Kills all tabs, no confirmation       |
 

@@ -3,10 +3,12 @@ local wezterm = require("wezterm")
 return {
 	-- color_scheme = "Catppuccin Latte",
 	-- color_scheme = "Vs Code Light+ (Gogh)",
-	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" }),
-    font_size = 14,
+	color_scheme = "iTerm2 Dark Background",
 
-    -- Window borders configuration - prominent borders
+	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" }),
+	font_size = 14,
+
+	-- Window borders configuration - prominent borders
 	window_frame = {
 		active_titlebar_bg = "#2b2b2b",
 		active_titlebar_fg = "#e0e0e0",
@@ -20,5 +22,5 @@ return {
 		border_right_color = "#5a5a5a",
 		border_top_color = "#5a5a5a",
 		border_bottom_color = "#5a5a5a",
-	}
+	},
 }
