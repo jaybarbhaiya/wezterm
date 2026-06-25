@@ -2,9 +2,10 @@ local wezterm = require("wezterm")
 
 return {
 	-- color_scheme = "Catppuccin Latte",
-	-- color_scheme = "Vs Code Light+ (Gogh)",
+	color_scheme = "Vs Code Light+ (Gogh)",
 	-- color_scheme = "iTerm2 Dark Background",
-	color_scheme = "Windows High Contrast Light (base16)",
+	-- color_scheme = "Windows High Contrast Light (base16)",
+  -- color_scheme = 'flexoki-light',
 
 	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" }),
 	font_size = 14,
